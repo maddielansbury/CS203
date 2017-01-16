@@ -1,0 +1,23 @@
+Madeline Lansbury
+CS203: Assignment 3
+12/7/15
+
+Exercise 7.5:
+	Wrapper classes convert primitive types into immutable objects, so the primitive
+	values can be used even when an input requires an Object type class.
+
+Exercise 7.6:
+	a. Use the following test:
+		if (x.getClass() == Rectangle.class)
+	b. Use the following test:
+		if (x.getClass().getSuperclass() == JPanel.class)
+	c. Use the following test:
+		if (x.getClass().getInterfaces().contains(Cloneable.class))
+
+Exercise 7.7:
+	a. Let x be a Rectangle:
+		x.getClass();
+	b. Class.forName("java.awt.Rectangle");
+	c. Let x be a class that is a subclass of Rectangle:
+		x.getSuperclass();
+	
